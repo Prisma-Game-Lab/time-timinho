@@ -10,17 +10,20 @@ using UnityEngine.UIElements;
 public class QuizManager : MonoBehaviour
 {
     public List<Question> questions;
-    public List<GameObject> options;
     public int currentQuestion;
     public TextMeshProUGUI QuestionText;
 
+    public GameObject QuestionPrefab;
 
+    private GridLayoutGroup gridLayoutGroup;
     private Question atual;
     private int[] answers;
 
     // Start is called before the first frame update
     private void Start()
     {
+        gridLayoutGroup = GetComponent<GridLayoutGroup>();
+
         currentQuestion = 0;
         atual = questions[currentQuestion];
 
@@ -28,11 +31,27 @@ public class QuizManager : MonoBehaviour
         setAnswers();
     }
 
-    void setAnswers()
+    /*void setAnswers()
     {
         for (int i = 0; i < options.Count; i++) 
         {
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = atual.PossibleAnswers[i];
+        }
+    }*/
+
+    void setAnswers()
+    {
+        for (int i = 0; i < atual.PossibleAnswers.Length; i++)
+        {
+            GameObject btn;
+            btn = Instantiate(QuestionPrefab, Vector3.zero, Quaternion.identity);
+
+            btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = atual.PossibleAnswers[i];
+
+            btn.transform.SetParent(gridLayoutGroup.transform);
+
+            btn.GetComponent<QuestionButton>().index = i;
+            
         }
     }
 
