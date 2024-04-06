@@ -50,6 +50,8 @@ public class QuizManager : MonoBehaviour
 
             btn.transform.SetParent(gridLayoutGroup.transform);
 
+            btn.transform.localScale = new Vector3(3.5f, 3.5f, 3.5f);
+
             btn.GetComponent<QuestionButton>().index = i;
             
         }

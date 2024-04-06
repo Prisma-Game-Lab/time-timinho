@@ -405,7 +405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 300}
+  m_AnchoredPosition: {x: 0, y: 301}
   m_SizeDelta: {x: 1700, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631851978
@@ -455,8 +455,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4146475303828417007, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 4146475303828417007, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
       propertyPath: m_Name
       value: Option
+      objectReference: {fileID: 0}
+    - target: {fileID: 4146475303828417007, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6933356262559086030, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
       propertyPath: m_Pivot.x
@@ -811,7 +819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.12, y: -177.89}
+  m_AnchoredPosition: {x: 0, y: -179}
   m_SizeDelta: {x: 1690.78, y: 537.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588908098
@@ -853,7 +861,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 2, y: 2}
+  m_CellSize: {x: 100, y: 50}
   m_Spacing: {x: 400, y: 400}
   m_Constraint: 0
   m_ConstraintCount: 2
