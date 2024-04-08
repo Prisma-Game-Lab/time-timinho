@@ -6,12 +6,16 @@ using System.Linq;
 using System;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using UnityEditor;
+using UnityEngine.Android;
 
 public class QuizManager : MonoBehaviour
 {
     public List<Question> questions;
     public int currentQuestion;
     public TextMeshProUGUI QuestionText;
+
+    private List<GameObject> buttons;
 
     public GameObject QuestionPrefab;
 
@@ -22,6 +26,9 @@ public class QuizManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        buttons = new List<GameObject>();
+        answers = new int[questions.Count];
+
         gridLayoutGroup = GetComponent<GridLayoutGroup>();
 
         currentQuestion = 0;
@@ -43,24 +50,32 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < atual.PossibleAnswers.Length; i++)
         {
-            GameObject btn;
-            btn = Instantiate(QuestionPrefab, Vector3.zero, Quaternion.identity);
+            GameObject btn = Instantiate(QuestionPrefab, Vector3.zero, Quaternion.identity) as GameObject;
+
+            btn.GetComponent<QuestionButton>().Init(i, this);
 
             btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = atual.PossibleAnswers[i];
 
             btn.transform.SetParent(gridLayoutGroup.transform);
 
             btn.transform.localScale = new Vector3(3.5f, 3.5f, 3.5f);
-
-            btn.GetComponent<QuestionButton>().index = i;
             
+            buttons.Add(btn);
         }
     }
 
-    public void selectAnswer(int button)
+    void clearAnswers()
     {
-        print(button);
-        answers.Append(button);
+        for(int i = 0; i < buttons.Count; i++)
+        {
+            Destroy(buttons[i]);
+        }
+        buttons.Clear();
+    }
+
+    public void selectAnswer(int buttonIndex)
+    {
+        print(buttonIndex);
         updateQuestion();
     }
 
@@ -68,6 +83,8 @@ public class QuizManager : MonoBehaviour
     {
         if (currentQuestion + 1 < questions.Count)
         {
+            clearAnswers();
+
             currentQuestion += 1;
 
             atual = questions[currentQuestion];

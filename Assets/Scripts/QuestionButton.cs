@@ -5,16 +5,23 @@ using UnityEngine;
 
 public class QuestionButton : MonoBehaviour
 {
-    public QuizManager script;
-    public int index;
+    private QuizManager script;
+    private int index;
 
-    private void Start()
+    public void Init(int index, QuizManager script)
     {
-        script = GetComponent<QuizManager>();
+        this.index = index;
+        this.script = script;
+    }
+
+    public int getIndex()
+    {
+        return index;
     }
 
     public void selectQuestion()
     {
-        script.selectAnswer(index);
+        script.selectAnswer(this.index);
+
     }
 }
