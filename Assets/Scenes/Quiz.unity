@@ -549,10 +549,10 @@ PrefabInstance:
     - target: {fileID: 9048979947332014715, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1588908098}
+      objectReference: {fileID: 1554100156}
     - target: {fileID: 9048979947332014715, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: updateQuestion
+      value: selectQuestion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -785,6 +785,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937105311}
   m_CullTransparentMesh: 1
+--- !u!114 &1554100156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4487211482804311113, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
+  m_PrefabInstance: {fileID: 742335420}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478d22f393a279d4c823da48434446dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1588908096
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +849,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f286773e68bc4684b8b39e1fb9016466, type: 2}
   - {fileID: 11400000, guid: ccbef4052624ea44696eefa6788d73ae, type: 2}
   - {fileID: 11400000, guid: c4cacec28da954847a1ca59eb9fafc89, type: 2}
+  - {fileID: 11400000, guid: 5f0d0a689db1c7844af4f2ec10afbec9, type: 2}
   currentQuestion: 0
   QuestionText: {fileID: 937105313}
   QuestionPrefab: {fileID: 4146475303828417007, guid: b09fdcf72f76b374c85a63ded8455ffd, type: 3}
