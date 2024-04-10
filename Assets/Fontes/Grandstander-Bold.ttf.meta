@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8c11a0e8ceb79c2418d32857d5e0d1cd
+guid: d393c627dc7a4b14a8d401e8d2ce0101
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,7 +12,7 @@ TrueTypeFontImporter:
   - Grandstander
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 0
+  fontRenderingMode: 2
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
