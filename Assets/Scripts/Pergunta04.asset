@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eedb787aa7bb38045a83135764e7cbea, type: 3}
+  m_Name: Pergunta04
+  m_EditorClassIdentifier: 
+  QuestionText: "O que voc\xEA espera que seu miudinho fa\xE7a?"
+  PossibleAnswers:
+  - "Fa\xE7a meu dever"
+  - Limpe o quarto
+  - Cozinhe a janta
+  - Encha a piscina
+  - Declare meu imposto
+  - Jogue bola comigo
+  - "Cancele meu cart\xE3o"
+  - Crimes
+  - Pregue pegadinhas
+  - Escreva e-mails
