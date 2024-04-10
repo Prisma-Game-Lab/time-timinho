@@ -1394,6 +1394,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5476128123829600913, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
+      propertyPath: "pr\xF3ximaCena"
+      value: Quiz
+      objectReference: {fileID: 0}
     - target: {fileID: 7792358306770974507, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
       propertyPath: m_text
       value: Jogar
