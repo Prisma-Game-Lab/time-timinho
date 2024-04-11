@@ -366,30 +366,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   corpos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 5b0d3ee15ffd61dd6960e07174873b78, type: 3}
+  - {fileID: 21300000, guid: c7675d78408f75ceeab680b888b45679, type: 3}
+  - {fileID: 21300000, guid: e89af2bb731fbe8ef90a470225690fd9, type: 3}
+  - {fileID: 21300000, guid: bbf355b5faf108ce8b8277962c16c207, type: 3}
   colares:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 1aa6c70feb870e88681962c29d6932db, type: 3}
+  - {fileID: 21300000, guid: ebac91eab4277b52a9d750d3df1b13c9, type: 3}
+  - {fileID: 21300000, guid: ff4dd1cfd14c6a26ebe8b54711764f56, type: 3}
+  - {fileID: 21300000, guid: c7dfc5776a95e8327990c0b880b360d4, type: 3}
+  - {fileID: 21300000, guid: 9c8912dd2a9a33c828948976280ea3b1, type: 3}
+  - {fileID: 21300000, guid: cf4dc0ac6aa036bd198961e712954e2b, type: 3}
   cabecas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 0a475c3715906df408b2cd9006982444, type: 3}
+  - {fileID: 21300000, guid: c359a7c136b8913eba8357b0ca9bc2b5, type: 3}
+  - {fileID: 21300000, guid: 08417339617da5cb6941c4e1a6f23902, type: 3}
+  - {fileID: 21300000, guid: cecab2b08f823a16eba673f1d4ef666a, type: 3}
   rostos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: b9026728d1a27ee619df50eb2e9b43da, type: 3}
+  - {fileID: 21300000, guid: 726257e96304599c0a5cde856bc9e105, type: 3}
+  - {fileID: 21300000, guid: c8ccd6767a4aa940193ae6236c271369, type: 3}
+  - {fileID: 21300000, guid: 025c13f9df5ff5e4c81ae6905a544d41, type: 3}
+  - {fileID: 21300000, guid: ada9dd501877c94bf96c688c70b49ce7, type: 3}
+  - {fileID: 21300000, guid: e450b2795584c50cfbed21e390b37ba0, type: 3}
   acessorios:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: ce2597564dd87a69b8647f519cca691b, type: 3}
+  - {fileID: 21300000, guid: d94fd6ab76ee1caaa9300936cbe1b2e0, type: 3}
+  - {fileID: 21300000, guid: 8fac73bdf25b02e72a1eb4d99c2d3cbc, type: 3}
+  - {fileID: 21300000, guid: 341a6cea970f435dc8954b719a49432c, type: 3}
+  - {fileID: 21300000, guid: 519f369587d76ab29bd3f6e91836898f, type: 3}
+  - {fileID: 21300000, guid: 6d6857ebdd16026a59601414711eefa7, type: 3}
+  - {fileID: 21300000, guid: 8ab9fa869e1342dc6b1fa148bfe41690, type: 3}
+  - {fileID: 21300000, guid: 4a6e70d14973041fb8bf082a6ff6591a, type: 3}
+  - {fileID: 21300000, guid: 6af858385d4f9837c870276db28229cd, type: 3}
+  - {fileID: 21300000, guid: 52667de160184b4b5884adb131f5e2f1, type: 3}
   MiudoMontado:
   - {fileID: 0}
   - {fileID: 0}

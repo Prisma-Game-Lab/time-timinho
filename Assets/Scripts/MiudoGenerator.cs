@@ -5,10 +5,10 @@ public class MiudoGenerator : MonoBehaviour
 {
     /* TODO : */
     [SerializeField] private Sprite[] corpos = new Sprite[4];
-    [SerializeField] private Sprite[] colares = new Sprite[4];
+    [SerializeField] private Sprite[] colares = new Sprite[6];
     [SerializeField] private Sprite[] cabecas = new Sprite[4];
-    [SerializeField] private Sprite[] rostos = new Sprite[4];
-    [SerializeField] private Sprite[] acessorios = new Sprite[4];
+    [SerializeField] private Sprite[] rostos = new Sprite[6];
+    [SerializeField] private Sprite[] acessorios = new Sprite[10];
     [SerializeField] private Sprite[] MiudoMontado = new Sprite[5];
     [SerializeField] private GameObject corpo;
     [SerializeField] private GameObject colar;
