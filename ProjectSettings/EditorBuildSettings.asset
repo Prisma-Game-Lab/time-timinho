@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: b00b36005fc62f940962da8ca899213c
+  - enabled: 1
+    path: Assets/Scenes/MiudoGeracao.unity
+    guid: 822fd6fed20a8dad3b78cf1d1610f248
   m_configObjects: {}

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class MiudoGenerator : MonoBehaviour
@@ -37,22 +38,31 @@ public class MiudoGenerator : MonoBehaviour
         }
     }
 
-    public void addIndex(int n)
+    public void addIndex(int[] n)
     {
-        index.Add(n);
+        for (int i = 0; i < n.Length; i++)
+        {
+            index.Add(n[i]);
+        }
     }
 
     private void Start()
     {
+
         matriz[0] = corpos;
         matriz[1] = colares;
         matriz[2] = cabecas;
         matriz[3] = rostos;
         matriz[4] = acessorios;
-        addIndex(1);
-        addIndex(1);
-        addIndex(3);
-        addIndex(2);
-        addIndex(3);
+
+        //int[] exemplo = { 1, 1, 2, 3, 3 };
+        //addIndex(exemplo);
+
+        int[] answers = GameManager.Instance.getMiudoAnswers();
+
+        addIndex(answers);
+
+
+        criaMiudo();
     }
 }

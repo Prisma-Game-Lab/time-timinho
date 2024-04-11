@@ -23,6 +23,8 @@ public class QuizManager : MonoBehaviour
     private Question atual;
     private int[] answers;
 
+    private int answerCount = 0;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -37,14 +39,6 @@ public class QuizManager : MonoBehaviour
         QuestionText.text = atual.QuestionText;
         setAnswers();
     }
-
-    /*void setAnswers()
-    {
-        for (int i = 0; i < options.Count; i++) 
-        {
-            options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = atual.PossibleAnswers[i];
-        }
-    }*/
 
     void setAnswers()
     {
@@ -76,6 +70,8 @@ public class QuizManager : MonoBehaviour
     public void selectAnswer(int buttonIndex)
     {
         print(buttonIndex);
+        answers[answerCount] = buttonIndex;
+        answerCount++;
         updateQuestion();
     }
 
@@ -95,11 +91,12 @@ public class QuizManager : MonoBehaviour
 
         else
         {
-            /*for(int i = 0; i < answers.Length; i++)
+            for(int i = 0; i < answers.Length; i++)
             {
                 print(answers[i]);
-            }*/
-            print("Cabou");
+            }
+
+            GameManager.Instance.setMiudoAnswers(answers);
         }
     }
 
