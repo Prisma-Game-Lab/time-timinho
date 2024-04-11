@@ -396,11 +396,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  corpo: {fileID: 0}
-  colar: {fileID: 0}
-  cabeca: {fileID: 0}
-  rosto: {fileID: 0}
-  acessorio: {fileID: 0}
+  corpo: {fileID: 1069305726}
+  colar: {fileID: 1449961434}
+  cabeca: {fileID: 837200611}
+  rosto: {fileID: 1314593871}
+  acessorio: {fileID: 1801476898}
 --- !u!1 &837200611
 GameObject:
   m_ObjectHideFlags: 0
