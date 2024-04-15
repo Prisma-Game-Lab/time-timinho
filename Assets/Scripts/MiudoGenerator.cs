@@ -16,6 +16,8 @@ public class MiudoGenerator : MonoBehaviour
     [SerializeField] private GameObject cabeca;
     [SerializeField] private GameObject rosto;
     [SerializeField] private GameObject acessorio;
+    [SerializeField] private string[] textoFuncoes = new string[10];
+    [SerializeField] private string[] textoOrigem = new string[8];
     private GameObject[] PartesMiudas;
     private Sprite[][] matriz = new Sprite[5][];
     private ArrayList index = new ArrayList();
