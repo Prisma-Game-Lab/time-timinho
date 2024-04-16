@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e00b5931578aec4aa0ef77633a56512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberBodyParts: 5
 --- !u!114 &3607501893153379846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,9 +103,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -233,8 +234,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24dbaf1528f48bf4eaf9e1671278a609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSounds: []
-  sfxSounds: []
+  musicSounds:
+  - name: BGM
+    clip: {fileID: 8300000, guid: 5c124ce3c247d2c42a905ee23a27cc8d, type: 3}
+  sfxSounds:
+  - name: clickButton
+    clip: {fileID: 8300000, guid: 73ab230f6bc434b4682058d57a7c048c, type: 3}
+  - name: geraMiudo
+    clip: {fileID: 8300000, guid: 1a743ef5e550a464aabd7a95568332b1, type: 3}
+  - name: clickQuiz
+    clip: {fileID: 8300000, guid: 20668f8d9a92c8a49bd7bae9297dcd81, type: 3}
+  - name: proxQuestion
+    clip: {fileID: 8300000, guid: 061c9ffc124fe184fbf214729e1ed21c, type: 3}
   sfxcSounds: []
   musicSource: {fileID: 4815250303835115029}
   sfxSource: {fileID: 6377131017467638035}
@@ -283,7 +294,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
