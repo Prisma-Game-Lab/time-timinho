@@ -1030,11 +1030,44 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 222643123437792086, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
   m_PrefabInstance: {fileID: 1204940258}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1204940260 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5476128123829600913, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
+  m_PrefabInstance: {fileID: 1204940258}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1237357839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5476128123829600913, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
+  m_PrefabInstance: {fileID: 337937825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1293961342 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 222643123437792086, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
   m_PrefabInstance: {fileID: 2127631955332972422}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1295813203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5476128123829600913, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
+  m_PrefabInstance: {fileID: 2127631955332972422}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1387802113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1717,7 @@ GameObject:
   - component: {fileID: 1630559951}
   - component: {fileID: 1630559950}
   - component: {fileID: 1630559949}
+  - component: {fileID: 1630559952}
   m_Layer: 5
   m_Name: credit
   m_TagString: Untagged
@@ -1754,7 +1788,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1630559950}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1237357839}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1630559950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,6 +1839,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630559947}
   m_CullTransparentMesh: 1
+--- !u!114 &1630559952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630559947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "pr\xF3ximaCena": creditos
 --- !u!1 &1637171252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,6 +2150,7 @@ GameObject:
   - component: {fileID: 1815401518}
   - component: {fileID: 1815401517}
   - component: {fileID: 1815401516}
+  - component: {fileID: 1815401519}
   m_Layer: 5
   m_Name: options
   m_TagString: Untagged
@@ -2161,7 +2221,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1815401517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1204940260}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1815401517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2200,6 +2272,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815401514}
   m_CullTransparentMesh: 1
+--- !u!114 &1815401519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815401514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "pr\xF3ximaCena": options
 --- !u!1 &1825706281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,6 +2297,7 @@ GameObject:
   - component: {fileID: 1825706285}
   - component: {fileID: 1825706284}
   - component: {fileID: 1825706283}
+  - component: {fileID: 1825706286}
   m_Layer: 5
   m_Name: play
   m_TagString: Untagged
@@ -2282,7 +2368,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1825706284}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1295813203}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1825706284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2321,6 +2419,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825706281}
   m_CullTransparentMesh: 1
+--- !u!114 &1825706286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825706281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd35d83ab69fa6e4a8140a389e297b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "pr\xF3ximaCena": quiz
 --- !u!1001 &1944600455
 PrefabInstance:
   m_ObjectHideFlags: 0
