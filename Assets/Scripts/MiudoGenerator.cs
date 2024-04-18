@@ -11,13 +11,18 @@ public class MiudoGenerator : MonoBehaviour
     [SerializeField] private Sprite[] rostos = new Sprite[6];
     [SerializeField] private Sprite[] acessorios = new Sprite[10];
     [SerializeField] private Sprite[] MiudoMontado = new Sprite[5];
+
     [SerializeField] private GameObject corpo;
     [SerializeField] private GameObject colar;
     [SerializeField] private GameObject cabeca;
     [SerializeField] private GameObject rosto;
     [SerializeField] private GameObject acessorio;
+
     [SerializeField] private string[] textoFuncoes = new string[10];
     [SerializeField] private string[] textoOrigem = new string[8];
+
+    [SerializeField] private Material[] materials = new Material[8];
+
     private GameObject[] PartesMiudas;
     private Sprite[][] matriz = new Sprite[5][];
     private ArrayList index = new ArrayList();
@@ -30,11 +35,13 @@ public class MiudoGenerator : MonoBehaviour
         {
             PartesMiudas[i].GetComponent<SpriteRenderer>().sprite = MiudoMontado[i];
         }
+
+        addTexture();
     }
 
     private void iteraMatriz()
     {
-        for(int i = 0; i < index.Count;i++)
+        for(int i = 0; i < index.Count - 1; i++)
         {
             MiudoMontado[i] = matriz[i][(int)index[i]];
         }
@@ -66,5 +73,16 @@ public class MiudoGenerator : MonoBehaviour
 
 
         criaMiudo();
+    }
+
+    private void addTexture()
+    {
+        Material mat = materials[(int)index[5]];
+
+        corpo.GetComponent<SpriteRenderer>().material = mat;
+        colar.GetComponent<SpriteRenderer>().material = mat;
+        cabeca.GetComponent<SpriteRenderer>().material = mat;
+        rosto.GetComponent<SpriteRenderer>().material = mat;
+        acessorio.GetComponent<SpriteRenderer>().material = mat;
     }
 }

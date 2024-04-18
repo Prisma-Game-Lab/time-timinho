@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public int numberBodyParts = 5;
     public static GameManager Instance { get; private set; }
 
     private static int[] bodyParts;
@@ -22,13 +21,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        bodyParts = new int[numberBodyParts];
-    }
-
     public void setMiudoAnswers(int[] answers)
     {
+        bodyParts = new int[answers.Length];
+
         for (int i = 0;i < answers.Length;i++)
         {
             bodyParts[i] = answers[i];

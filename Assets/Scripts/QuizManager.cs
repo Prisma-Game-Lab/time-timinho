@@ -11,13 +11,13 @@ using UnityEngine.Android;
 
 public class QuizManager : MonoBehaviour
 {
-    public List<Question> questions;
-    public int currentQuestion;
+    [SerializeField] private List<Question> questions;
+    private int currentQuestion;
     public TextMeshProUGUI QuestionText;
 
     private List<GameObject> buttons;
 
-    public GameObject QuestionPrefab;
+    [SerializeField] private GameObject QuestionPrefab;
 
     private GridLayoutGroup gridLayoutGroup;
     private Question atual;
@@ -32,6 +32,9 @@ public class QuizManager : MonoBehaviour
         answers = new int[questions.Count];
 
         gridLayoutGroup = GetComponent<GridLayoutGroup>();
+
+        if (questions.Count == 0)
+            print("AAAAAAAAAAA");
 
         currentQuestion = 0;
         atual = questions[currentQuestion];
