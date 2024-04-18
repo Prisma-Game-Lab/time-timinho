@@ -38,7 +38,7 @@ public class MiudoGenerator : MonoBehaviour
 
         addTexture();
     }
-
+    //ATENCAO -- SE FOR ADICIONAR MAIS PERGUNTAS É NECESSARIO SUBTRAIR OQ N E PARTE DE MIUDO DO INDEX COUNT
     private void iteraMatriz()
     {
         for(int i = 0; i < index.Count - 1; i++)
@@ -64,9 +64,6 @@ public class MiudoGenerator : MonoBehaviour
         matriz[3] = rostos;
         matriz[4] = acessorios;
 
-        //int[] exemplo = { 1, 1, 2, 3, 3 };
-        //addIndex(exemplo);
-
         int[] answers = GameManager.Instance.getMiudoAnswers();
 
         addIndex(answers);
@@ -75,6 +72,7 @@ public class MiudoGenerator : MonoBehaviour
         criaMiudo();
     }
 
+    //Função que adiciona textura no miudo montado
     private void addTexture()
     {
         Material mat = materials[(int)index[5]];
