@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedb787aa7bb38045a83135764e7cbea, type: 3}
   m_Name: Pergunta01
   m_EditorClassIdentifier: 
-  QuestionText: "O que voc\xEA gosta de comer quando est\xE1 chovendo?)"
+  QuestionText: "O que voc\xEA gosta de comer quando est\xE1 chovendo?"
   PossibleAnswers:
   - Morder gelo
   - Bolinho de chuva
