@@ -73,7 +73,6 @@ public class QuizManager : MonoBehaviour
 
     public void selectAnswer(int buttonIndex)
     {
-        print(buttonIndex);
         answers[answerCount] = buttonIndex;
         answerCount++;
         updateQuestion();

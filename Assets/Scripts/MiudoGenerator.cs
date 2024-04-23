@@ -58,11 +58,11 @@ public class MiudoGenerator : MonoBehaviour
     private void Start()
     {
 
-        matriz[0] = corpos;
-        matriz[1] = colares;
-        matriz[2] = cabecas;
-        matriz[3] = rostos;
-        matriz[4] = acessorios;
+        matriz[4] = corpos;
+        matriz[2] = colares;
+        matriz[0] = cabecas;
+        matriz[1] = rostos;
+        matriz[3] = acessorios;
 
         int[] answers = GameManager.Instance.getMiudoAnswers();
 
