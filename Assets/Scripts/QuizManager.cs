@@ -8,6 +8,7 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using UnityEditor;
 using UnityEngine.Android;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
@@ -100,6 +101,7 @@ public class QuizManager : MonoBehaviour
             }
 
             GameManager.Instance.setMiudoAnswers(answers);
+            SceneManager.LoadScene("MiudoGeracao");
         }
     }
 
