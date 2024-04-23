@@ -718,14 +718,29 @@ MonoBehaviour:
   - 
   - 
   textoOrigem:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "No mundo desse miudinho todos s\xE3o pregui\xE7osos, mesmo assim n\xE3o duvide
+    da capacidade deles de achar solu\xE7\xF5es inteligentes para que n\xE3o precisem
+    trabalhar."
+  - "Vindo de uma terra frut\xEDfera, onde todas as cores s\xE3o frutas, e todas
+    as frutas s\xE3o cores, esse miudinho tem um cheirinho de tutti-frutti c\xEDtrico."
+  - "Os miudinhos desse mundo s\xE3o todos idoso. Eles s\xE3o muito s\xE1bios, mas
+    tamb\xE9m adoram uma fofoca. Se tiver um cafezinho feito na hora e um bolinho
+    de fub\xE1 voc\xEA sabe que a conversa vai render."
+  - "Esse miudinho veio de um mundo onde tudo \xE9 s\xE9pia, o velho est\xE1 sempre
+    na moda. N\xE3o \xE9 de se estranhar que seu vocabul\xE1rio seja erudito e suas
+    refer\xEAncias sejam a era do vapor."
+  - "Ele veio de uma cidade j\xE1 muito afundada no oceano. Uma civiliza\xE7\xE3o
+    centen\xE1ria que existiu por milhares de anos, mas mesmo esses miudinhos sofrem
+    as consequ\xEAncias de faltar as aulinhas de nata\xE7\xE3o."
+  - "A infinidade de cores existentes no mundo desse miudinho demonstra o porqu\xEA
+    tudo precisa ser o mais colorido poss\xEDvel em qualquer trabalho realizado.
+    Cor de mais n\xE3o existe em seu vocabul\xE1rio."
+  - "Silencioso e agil, esse miudinho veio de um mundo onde todos os seus habitantes
+    s\xE3o extremamente furtivos e discretos. Excelente ajudante para quem n\xE3o
+    pode perturbar seus vizinhos."
+  - "Moldar e remoldar faz parte do mundo onde esse miudinho veio. Para eles, nada
+    \xE9 abstrato o suficiente que n\xE3o possa ser modelado pelas suas pequeninas
+    m\xE3ozinhas."
   materials:
   - {fileID: 2100000, guid: 9ee54bd2ff0039048a273d6b9ae554d7, type: 2}
   - {fileID: 2100000, guid: 474941d0ab4b01047bf9cb7c3da71b2c, type: 2}
