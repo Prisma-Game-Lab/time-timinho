@@ -12,6 +12,8 @@ public class MiudoGenerator : MonoBehaviour
     [SerializeField] private Sprite[] rostos = new Sprite[6];
     [SerializeField] private Sprite[] acessorios = new Sprite[10];
     [SerializeField] private Sprite[] MiudoMontado = new Sprite[5];
+    [SerializeField] private Sprite[] nomes = new Sprite[10];
+    [SerializeField] private Sprite[] origens = new Sprite[8];
 
     [SerializeField] private GameObject cenario;
     [SerializeField] private GameObject corpo;
@@ -19,9 +21,12 @@ public class MiudoGenerator : MonoBehaviour
     [SerializeField] private GameObject cabeca;
     [SerializeField] private GameObject rosto;
     [SerializeField] private GameObject acessorio;
+    [SerializeField] private GameObject nome;
+    [SerializeField] private GameObject origem;
 
-    [SerializeField] private string[] textoFuncoes = new string[10];
-    [SerializeField] private string[] textoOrigem = new string[8];
+
+    [SerializeField] private Sprite[] textoFuncoes = new Sprite[10];
+    [SerializeField] private Sprite[] textoOrigem = new Sprite[8];
 
     [SerializeField] private Material[] materials = new Material[8];
 

@@ -123,6 +123,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12300066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12300067}
+  - component: {fileID: 12300069}
+  - component: {fileID: 12300068}
+  m_Layer: 5
+  m_Name: Origem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &12300067
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12300066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2047691582}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -212, y: -22}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &12300068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12300066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &12300069
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12300066}
+  m_CullTransparentMesh: 1
 --- !u!1 &41086322
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +315,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 706079507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &106117403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 106117404}
+  - component: {fileID: 106117406}
+  - component: {fileID: 106117405}
+  m_Layer: 5
+  m_Name: Nome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &106117404
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106117403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2047691582}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -212, y: 79}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &106117405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106117403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &106117406
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106117403}
+  m_CullTransparentMesh: 1
 --- !u!224 &190446128 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 222643123437792086, guid: 5cd5cf13fcd13221f91b5b47b67136c3, type: 3}
@@ -800,41 +950,28 @@ MonoBehaviour:
   cabeca: {fileID: 668844036}
   rosto: {fileID: 453682123}
   acessorio: {fileID: 418969726}
+  nome: {fileID: 106117403}
+  origem: {fileID: 12300066}
   textoFuncoes:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - {fileID: 21300000, guid: 2651c2bf03c9b7d4484a4573a14b9817, type: 3}
+  - {fileID: 21300000, guid: 29906d629222118428c8c33153e73dff, type: 3}
+  - {fileID: 21300000, guid: cd3a4fe4c26604e4c81527c4f23678c9, type: 3}
+  - {fileID: 21300000, guid: 4aa6b201bfaa4e3458284bb8785ab819, type: 3}
+  - {fileID: 21300000, guid: fc5f09e845fd4f54bad881c0eee4c0aa, type: 3}
+  - {fileID: 21300000, guid: f3ac50fdfe75da742b8e899bdea11fa3, type: 3}
+  - {fileID: 21300000, guid: 0c004a13444e6384e9e91bfeb0f51cd1, type: 3}
+  - {fileID: 21300000, guid: cff8d000722f3d4438ec8a91a0fb0568, type: 3}
+  - {fileID: 21300000, guid: c575b7cb6ca9ee147a3bfd485400902c, type: 3}
+  - {fileID: 0}
   textoOrigem:
-  - "No mundo desse miudinho todos s\xE3o pregui\xE7osos, mesmo assim n\xE3o duvide
-    da capacidade deles de achar solu\xE7\xF5es inteligentes para que n\xE3o precisem
-    trabalhar."
-  - "Vindo de uma terra frut\xEDfera, onde todas as cores s\xE3o frutas, e todas
-    as frutas s\xE3o cores, esse miudinho tem um cheirinho de tutti-frutti c\xEDtrico."
-  - "Os miudinhos desse mundo s\xE3o todos idoso. Eles s\xE3o muito s\xE1bios, mas
-    tamb\xE9m adoram uma fofoca. Se tiver um cafezinho feito na hora e um bolinho
-    de fub\xE1 voc\xEA sabe que a conversa vai render."
-  - "Esse miudinho veio de um mundo onde tudo \xE9 s\xE9pia, o velho est\xE1 sempre
-    na moda. N\xE3o \xE9 de se estranhar que seu vocabul\xE1rio seja erudito e suas
-    refer\xEAncias sejam a era do vapor."
-  - "Ele veio de uma cidade j\xE1 muito afundada no oceano. Uma civiliza\xE7\xE3o
-    centen\xE1ria que existiu por milhares de anos, mas mesmo esses miudinhos sofrem
-    as consequ\xEAncias de faltar as aulinhas de nata\xE7\xE3o."
-  - "A infinidade de cores existentes no mundo desse miudinho demonstra o porqu\xEA
-    tudo precisa ser o mais colorido poss\xEDvel em qualquer trabalho realizado.
-    Cor de mais n\xE3o existe em seu vocabul\xE1rio."
-  - "Silencioso e agil, esse miudinho veio de um mundo onde todos os seus habitantes
-    s\xE3o extremamente furtivos e discretos. Excelente ajudante para quem n\xE3o
-    pode perturbar seus vizinhos."
-  - "Moldar e remoldar faz parte do mundo onde esse miudinho veio. Para eles, nada
-    \xE9 abstrato o suficiente que n\xE3o possa ser modelado pelas suas pequeninas
-    m\xE3ozinhas."
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
   materials:
   - {fileID: 2100000, guid: 9ee54bd2ff0039048a273d6b9ae554d7, type: 2}
   - {fileID: 2100000, guid: 474941d0ab4b01047bf9cb7c3da71b2c, type: 2}
@@ -1543,6 +1680,8 @@ RectTransform:
   m_Children:
   - {fileID: 1018470998}
   - {fileID: 2127725711}
+  - {fileID: 106117404}
+  - {fileID: 12300067}
   m_Father: {fileID: 41086323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
