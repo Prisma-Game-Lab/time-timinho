@@ -5,6 +5,7 @@ using UnityEngine;
 public class MiudoGenerator : MonoBehaviour
 {
     /* TODO : */
+    [SerializeField] private Sprite[] cenarios = new Sprite[8];
     [SerializeField] private Sprite[] corpos = new Sprite[4];
     [SerializeField] private Sprite[] colares = new Sprite[6];
     [SerializeField] private Sprite[] cabecas = new Sprite[4];
@@ -12,6 +13,7 @@ public class MiudoGenerator : MonoBehaviour
     [SerializeField] private Sprite[] acessorios = new Sprite[10];
     [SerializeField] private Sprite[] MiudoMontado = new Sprite[5];
 
+    [SerializeField] private GameObject cenario;
     [SerializeField] private GameObject corpo;
     [SerializeField] private GameObject colar;
     [SerializeField] private GameObject cabeca;
@@ -75,6 +77,9 @@ public class MiudoGenerator : MonoBehaviour
     //Função que adiciona textura no miudo montado
     private void addTexture()
     {
+        SpriteRenderer cen = cenario.GetComponent<SpriteRenderer>();
+        cen.sprite = cenarios[(int)index[5]];
+
         Material mat = materials[(int)index[5]];
 
         corpo.GetComponent<SpriteRenderer>().material = mat;
@@ -82,5 +87,7 @@ public class MiudoGenerator : MonoBehaviour
         cabeca.GetComponent<SpriteRenderer>().material = mat;
         rosto.GetComponent<SpriteRenderer>().material = mat;
         acessorio.GetComponent<SpriteRenderer>().material = mat;
+        cen.material = mat;
+
     }
 }
