@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Xml.Serialization;
+// using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MiudoGenerator : MonoBehaviour
 {
@@ -38,17 +40,18 @@ public class MiudoGenerator : MonoBehaviour
     {
         iteraMatriz();
         PartesMiudas = new GameObject[5] { corpo, colar, cabeca, rosto, acessorio };
-        for(int i = 0; i < MiudoMontado.Length; i++)
+        for (int i = 0; i < MiudoMontado.Length; i++)
         {
             PartesMiudas[i].GetComponent<SpriteRenderer>().sprite = MiudoMontado[i];
         }
 
         addTexture();
+        GeraCurriculo();
     }
-    //ATENCAO -- SE FOR ADICIONAR MAIS PERGUNTAS É NECESSARIO SUBTRAIR OQ N E PARTE DE MIUDO DO INDEX COUNT
+    //ATENCAO -- SE FOR ADICIONAR MAIS PERGUNTAS ï¿½ NECESSARIO SUBTRAIR OQ N E PARTE DE MIUDO DO INDEX COUNT
     private void iteraMatriz()
     {
-        for(int i = 0; i < index.Count - 1; i++)
+        for (int i = 0; i < index.Count - 1; i++)
         {
             MiudoMontado[i] = matriz[i][(int)index[i]];
         }
@@ -79,7 +82,7 @@ public class MiudoGenerator : MonoBehaviour
         criaMiudo();
     }
 
-    //Função que adiciona textura no miudo montado
+    //Funï¿½ï¿½o que adiciona textura no miudo montado
     private void addTexture()
     {
         SpriteRenderer cen = cenario.GetComponent<SpriteRenderer>();
@@ -94,5 +97,11 @@ public class MiudoGenerator : MonoBehaviour
         acessorio.GetComponent<SpriteRenderer>().material = mat;
         cen.material = mat;
 
+    }
+
+    private void GeraCurriculo()
+    {
+        nome.GetComponent<SpriteRenderer>().sprite = nomes[(int)index[3]];
+        origem.GetComponent<SpriteRenderer>().sprite = origens[(int)index[5]];
     }
 }
