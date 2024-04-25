@@ -895,13 +895,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9b9d4d162423fcbaa90b409dc5fa2842, type: 3}
   origens:
   - {fileID: 21300000, guid: 2ed5db82c54c65946b395c6ec5f5771a, type: 3}
-  - {fileID: 21300000, guid: d0975a60ceaa5634b8b30c4f5811f097, type: 3}
-  - {fileID: 21300000, guid: d82c40dde79ea514dbd2e754a4f83ca3, type: 3}
-  - {fileID: 21300000, guid: 2731232a588d0404891eee6817632933, type: 3}
-  - {fileID: 21300000, guid: 2b289f41ad5535b42a72acb20747ca74, type: 3}
   - {fileID: 21300000, guid: 4a4cbaf240ccd4f4f8ecc8a93d8c8825, type: 3}
-  - {fileID: 21300000, guid: d4fcf6ab0adc18e41bc725d32ded5f71, type: 3}
+  - {fileID: 21300000, guid: d0975a60ceaa5634b8b30c4f5811f097, type: 3}
+  - {fileID: 21300000, guid: 2b289f41ad5535b42a72acb20747ca74, type: 3}
+  - {fileID: 21300000, guid: d82c40dde79ea514dbd2e754a4f83ca3, type: 3}
   - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: 2731232a588d0404891eee6817632933, type: 3}
+  - {fileID: 21300000, guid: d4fcf6ab0adc18e41bc725d32ded5f71, type: 3}
   cenario: {fileID: 77665377}
   corpo: {fileID: 2112998841}
   colar: {fileID: 571865741}
@@ -923,13 +923,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9b9d4d162423fcbaa90b409dc5fa2842, type: 3}
   textoOrigem:
   - {fileID: 21300000, guid: 2ed5db82c54c65946b395c6ec5f5771a, type: 3}
-  - {fileID: 21300000, guid: d0975a60ceaa5634b8b30c4f5811f097, type: 3}
-  - {fileID: 21300000, guid: d82c40dde79ea514dbd2e754a4f83ca3, type: 3}
-  - {fileID: 21300000, guid: 2731232a588d0404891eee6817632933, type: 3}
-  - {fileID: 21300000, guid: 2b289f41ad5535b42a72acb20747ca74, type: 3}
   - {fileID: 21300000, guid: 4a4cbaf240ccd4f4f8ecc8a93d8c8825, type: 3}
-  - {fileID: 21300000, guid: d4fcf6ab0adc18e41bc725d32ded5f71, type: 3}
+  - {fileID: 21300000, guid: d0975a60ceaa5634b8b30c4f5811f097, type: 3}
+  - {fileID: 21300000, guid: 2b289f41ad5535b42a72acb20747ca74, type: 3}
+  - {fileID: 21300000, guid: d82c40dde79ea514dbd2e754a4f83ca3, type: 3}
   - {fileID: 21300000, guid: f4d7e6533dd0a054dbc9dd241e9d494b, type: 3}
+  - {fileID: 21300000, guid: 2731232a588d0404891eee6817632933, type: 3}
+  - {fileID: 21300000, guid: d4fcf6ab0adc18e41bc725d32ded5f71, type: 3}
   materials:
   - {fileID: 2100000, guid: 9ee54bd2ff0039048a273d6b9ae554d7, type: 2}
   - {fileID: 2100000, guid: 474941d0ab4b01047bf9cb7c3da71b2c, type: 2}
